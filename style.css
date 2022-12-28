@@ -1,0 +1,168 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 0%;
+    margin: 0 auto;
+}
+
+h1, h2, h3 {
+    font-weight: bold;
+}
+
+.avatar {
+    border-radius: 50%;
+    width: 250px;
+}
+
+.title, .contacts {
+    color: white;
+    background-color: #3F313F;
+}
+
+.title {
+    padding-bottom: 50px;
+    padding-top: 50px;
+    padding-left: 15%;
+    padding-right: 50%;
+    display: flex;
+}
+
+.title div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 50px;
+}
+
+.title div h1, .title div p {
+    margin: 5px;
+}
+
+.body {
+    max-width: 70%;
+    padding-left: 15%;
+    padding-right: 15%;
+}
+
+.body section {
+    padding-bottom: 25px;
+    padding-top: 25px;
+}
+
+.experience_wrapper{
+    display: flex;
+}
+
+.experience_text{
+    padding-top: 4px;
+    padding-right: 55px;
+}
+
+.experience_content{
+    padding-left: 150px;
+}
+
+.ex__head{
+    padding-left: 20px;
+}
+
+.language ul {
+    list-style: none;
+    padding:0%
+}
+
+.language ul li::before {
+    content:"\25A0";
+    color:#b9a49e;
+    font-weight: bold;
+    display: inline-block;
+    width: 1em;
+}
+
+.area{
+display: flex;
+justify-content: center;
+}
+
+.form{
+    background-color:#E5D6D2;
+
+    padding-bottom: 50px;
+}
+
+.form_container{
+    display: flex;
+    justify-content: center;
+}
+
+.form_heading{
+    line-height: 20px;
+    color: #3F313F;
+
+    padding-top: 40px;
+    text-align: center;
+    padding-bottom: 11px;
+}
+
+.form_title{
+    line-height: 20px;
+    color: #3F313F;
+}
+
+.form_input{
+    width: 350px;
+    border: 0px;
+    border-bottom:2px solid #BEB1AE;
+    background-color:#E5D6D2;
+    font-weight: bold;
+    resize: none;
+}
+
+.area_wrapper{
+display: flex;
+justify-content: center;
+}
+
+.form_textarea{
+    width: 700px;
+    border: 0px;
+    border-bottom:2px solid #BEB1AE;
+    background-color:#E5D6D2;
+    font-weight: bold;
+    resize: none;
+}
+
+.form_bnt{
+    width: 170px;
+    height: 40px;
+    background: #3F313F;
+    text-align: center;
+    color: #FFFFFF;
+    border: none;
+
+    display: block;
+    margin: 0 auto;
+    margin-top: 50px; 
+}
+
+.contacts {
+    text-align: center;
+    padding-left: 15%;
+    padding-right: 15%;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.contacts ul {
+    padding: 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+.contacts ul li {
+    list-style-type: none;
+}
+
+.copyright {
+    text-align: center;
+    color: #817581;
+}
